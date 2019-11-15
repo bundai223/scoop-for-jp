@@ -1,0 +1,16 @@
+{
+    "version": "1.1",
+    "url": "http://www.pfu.fujitsu.com/hhkeyboard/downloads/HHKBCNG_V1_1.exe",
+    "homepage": "http://www.pfu.fujitsu.com/hhkeyboard/hhkb-download.html",
+    "hash": "14A786D10F74958A36200CBD509625A6D2624DB63E9E3518B0951F91F1AFA7D0",
+    "##": "HHKBCNG",
+    "installer": {
+        file: "HHKBCNG_V1_1.exe"
+    },
+    "bin": [
+        [ "HHKBCNG.exe", "HHKBCNG" ]
+    ],
+    "shortcuts": [
+        [ "HHKBCNG.exe", "HHKBCNG" ]
+    ]
+}

@@ -4,12 +4,6 @@
     "hash": "d03243320acb968b84327689576562f4f4d9c0e2c4909c834c287c6e72391050",
     "homepage": "https://www.thilmera.com/",
     "license": "https://www.thilmera.com/s/help/?m=97d9303acdfc078a050e61dc5c1a9a76",
-    "bin": [
-      [ "thilmera7.exe" ],
-      [ "thilmera7_64.exe" ],
-      [ "thilmera7s.exe" ],
-      [ "thilmera7s64.exe" ]
-    ],
     "architecture": {
         "64bit": {
             "bin": [
@@ -32,6 +26,11 @@
             ]
         }
     },
+    "pre_install": [
+        "dir $dir",
+        "New-Item -Type File $dir\\thilmera7.ini",
+        "New-Item -Type File $dir\\thilmera7key.ini"
+    ],
     "persist": [
         "thilmera7.ini",
         "thilmera7key.ini"

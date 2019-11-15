@@ -19,6 +19,6 @@
     ],
     "checkver": {
         "url": "https://www.thilmera.com/?page=version",
-        "re": "\[version ([0-9a-z]+) /\]"
+        "re": "version ([0-9a-z]+) /"
     }
 }

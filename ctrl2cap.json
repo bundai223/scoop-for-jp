@@ -1,0 +1,25 @@
+{
+    "version": "2.0",
+    "url": "http://download.sysinternals.com/files/Ctrl2Cap.zip",
+    "homepage": "https://docs.microsoft.com/en-us/sysinternals/downloads/ctrl2cap",
+    "hash": "2D8C06374DA140BEDA79AC1940AB2B06A56A9AF182DBA70A6338313D768A2AC2",
+    "##": "自動でcapsをctrlに置き換える(要 管理者権限)",
+    "depends": [
+        "sudo"
+    ],
+    "installer": {
+        "script": [
+            "cd $dir; sudo ctrl2cap.exe /install"
+        ],
+        "keep": "true"
+    },
+    "uninstaller": {
+        "script": [
+            "cd $dir; sudo ctrl2cap.exe /uninstall"
+        ]
+    },
+    "bin": "ctrl2cap.exe",
+    "shortcuts": [
+        [ "ctrl2cap.exe", "ctrl2cap" ]
+    ]
+}

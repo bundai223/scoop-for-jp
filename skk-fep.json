@@ -1,0 +1,13 @@
+{
+    "version": "B0+12i",
+    "url": "http://coexe.web.fc2.com/skkfep012_20190506.zip",
+    "homepage": "http://coexe.web.fc2.com/skkinstall.html",
+    "hash": "07B6F38DA994F7B655653B7B5C834F2FF8E4A0CF118D7B13F4137A97ACFF8307",
+    "##": "skkfep",
+    "bin": [
+        [ "SETUP.js", "skkfep_setup" ]
+    ],
+    "shortcuts": [
+        [ "SETUP.js", "skkfep_setup" ]
+    ]
+}

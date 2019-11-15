@@ -16,9 +16,5 @@
     "persist": [
         "thilmera7.ini",
         "thilmera7key.ini"
-    ],
-    "checkver": {
-        "url": "https://www.thilmera.com/?page=version",
-        "re": "version ([0-9a-z]+) /"
-    }
+    ]
 }

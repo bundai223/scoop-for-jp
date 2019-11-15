@@ -4,7 +4,7 @@
     "hash": "d03243320acb968b84327689576562f4f4d9c0e2c4909c834c287c6e72391050",
     "homepage": "https://www.thilmera.com/",
     "license": "https://www.thilmera.com/s/help/?m=97d9303acdfc078a050e61dc5c1a9a76",
-    "extract_dir": "thilmera0b161bin",
+    "extract_dir": "thilmera7",
     "bin": [
       [ "thilmera7.exe" ],
       [ "thilmera7_64.exe" ],

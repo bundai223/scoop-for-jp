@@ -7,11 +7,31 @@
     "bin": [
       [ "thilmera7.exe" ],
       [ "thilmera7_64.exe" ],
-      [ "thilmera7lite.exe" ],
       [ "thilmera7s.exe" ],
-      [ "thilmera7s64.exe" ],
-      [ "thilmera7us.exe" ]
+      [ "thilmera7s64.exe" ]
     ],
+    "architecture": {
+        "64bit": {
+            "bin": [
+                [ "thilmera7_64.exe", "thilmera7" ],
+                [ "thilmera7s64.exe", "thilmera7s" ]
+            ],
+            "shortcuts": [
+                [ "thilmera7_64.exe", "thilmera7" ],
+                [ "thilmera7s64.exe", "thilmera7s" ]
+            ]
+        },
+        "32bit": {
+            "bin": [
+                [ "thilmera7.exe", "thilmera7" ],
+                [ "thilmera7s.exe", "thilmera7s" ]
+            ],
+            "shortcuts": [
+                [ "thilmera7.exe", "thilmera7" ],
+                [ "thilmera7s.exe", "thilmera7s" ]
+            ]
+        }
+    },
     "persist": [
         "thilmera7.ini",
         "thilmera7key.ini"

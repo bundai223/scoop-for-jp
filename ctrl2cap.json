@@ -7,17 +7,6 @@
     "depends": [
         "sudo"
     ],
-    "installer": {
-        "script": [
-            "cd $dir; sudo ctrl2cap.exe /install"
-        ],
-        "keep": "true"
-    },
-    "uninstaller": {
-        "script": [
-            "cd $dir; sudo ctrl2cap.exe /uninstall"
-        ]
-    },
     "bin": "ctrl2cap.exe",
     "shortcuts": [
         [ "ctrl2cap.exe", "ctrl2cap" ]

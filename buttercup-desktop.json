@@ -1,0 +1,10 @@
+{
+    "version": "1.17.3",
+    "url": "https://github.com/buttercup/buttercup-desktop/releases/download/v1.17.3/Buttercup-Setup-1.17.3.exe",
+    "homepage": "https://buttercup.pw/",
+    "hash": "CB52E994046ED99BA2E91259A61C6B97EDFDF39A4AFC120D9146EC1479D16BA2",
+    "##": "Buttercup",
+    "installer": {
+        "script": "sudo $dir\\Buttercup-Setup-1.17.3.exe"
+    }
+}

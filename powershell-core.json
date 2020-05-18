@@ -1,25 +1,25 @@
 {
   "architecture": {
     "64bit": {
-      "url": "https://github.com/PowerShell/PowerShell/releases/download/v7.0.0/PowerShell-7.0.0-win-x64.zip",
-      "hash": "CDA2CA2227FBEC2C753AA760859667B02007D14646A831BD908B8F749CBCC687"
+      "url": "https://github.com/PowerShell/PowerShell/releases/download/v7.0.1/PowerShell-7.0.1-win-x64.zip",
+      "hash": "0CE5E2C20C773E54F931ADC60C77F599CA90C25B14F53FDBDED19572847B45C7"
     },
     "32bit": {
-      "url": "https://github.com/PowerShell/PowerShell/releases/download/v7.0.0/PowerShell-7.0.0-win-x86.zip",
-      "hash": "F33E852F7721E61FF3BAE9FC04F1DFA48CE7B10CD59D649126D5BA9BFAD9AECD"
+      "url": "https://github.com/PowerShell/PowerShell/releases/download/v7.0.1/PowerShell-7.0.1-win-x86.zip",
+      "hash": "1478777C68B489574CC98B4041A6DC87330FFD2C14D91970D86B7D1B27D377EA"
     }
   },
-  "version": "7.0.0",
+  "version": "7.0.1",
   "shortcuts": [
     [
       "pwsh.exe",
-      "PowerShell Core 7.0.0"
+      "PowerShell Core 7.0.1"
     ]
   ],
   "bin": "pwsh.exe",
   "checkver": {
-    "url": "https://github.com/PowerShell/PowerShell/releases/",
-    "regex": "v([\\d\\.]+) Release of PowerShell"
+    "url": "https://github.com/PowerShell/PowerShell/releases/latest",
+    "regex": "v([\\d\\.]+) - [\\d]{4}-[\\d]{2}-[\\d]{2}"
   },
   "autoupdate": {
     "architecture": {

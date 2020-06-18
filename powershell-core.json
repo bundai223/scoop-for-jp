@@ -1,17 +1,17 @@
 {
   "architecture": {
     "64bit": {
-      "url": "https://github.com/PowerShell/PowerShell/releases/download/v${version}/PowerShell-${version}-win-x64.zip"
+      "url": "https://github.com/PowerShell/PowerShell/releases/download/v7.0.2/PowerShell-7.0.2-win-x64.zip"
     },
     "32bit": {
-      "url": "https://github.com/PowerShell/PowerShell/releases/download/v${version}/PowerShell-${version}-win-x86.zip"
+      "url": "https://github.com/PowerShell/PowerShell/releases/download/v7.0.2/PowerShell-7.0.2-win-x86.zip"
     }
   },
   "version": "7.0.2",
   "shortcuts": [
     [
       "pwsh.exe",
-      "PowerShell Core ${version}"
+      "PowerShell Core v7.0.2"
     ]
   ],
   "bin": "pwsh.exe",

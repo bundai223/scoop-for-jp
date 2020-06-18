@@ -1,19 +1,17 @@
 {
   "architecture": {
     "64bit": {
-      "url": "https://github.com/PowerShell/PowerShell/releases/download/v7.0.1/PowerShell-7.0.1-win-x64.zip",
-      "hash": "0CE5E2C20C773E54F931ADC60C77F599CA90C25B14F53FDBDED19572847B45C7"
+      "url": "https://github.com/PowerShell/PowerShell/releases/download/v${version}/PowerShell-${version}-win-x64.zip"
     },
     "32bit": {
-      "url": "https://github.com/PowerShell/PowerShell/releases/download/v7.0.1/PowerShell-7.0.1-win-x86.zip",
-      "hash": "1478777C68B489574CC98B4041A6DC87330FFD2C14D91970D86B7D1B27D377EA"
+      "url": "https://github.com/PowerShell/PowerShell/releases/download/v${version}/PowerShell-${version}-win-x86.zip"
     }
   },
-  "version": "7.0.1",
+  "version": "7.0.2",
   "shortcuts": [
     [
       "pwsh.exe",
-      "PowerShell Core 7.0.1"
+      "PowerShell Core ${version}"
     ]
   ],
   "bin": "pwsh.exe",

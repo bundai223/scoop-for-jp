@@ -1,0 +1,10 @@
+{
+    "version": "0.9.1",
+    "url": "https://github.com/obsidianmd/obsidian-releases/releases/download/v0.9.1/Obsidian.0.9.1.exe",
+    "hash": "",
+    "homepage": "https://obsidian.md",
+    "license": "https://https://obsidian.md/eula",
+    "installer": {
+        "file": "Obsidian.0.9.1.exe"
+    }
+}
